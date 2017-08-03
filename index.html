@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+
+<head>
+    <!--GLOBAL META-->
+    <!-- requestUrl=/content/sothebys/zh.html -->
+    <title>Tai Po Antiques Co. : Chinese Fine Art & Private Sales for ancient porcelain,ceramics, jewellery, jade,
+        watches, & more | Tai Po Antiques Co.</title>
+    <meta name="description"
+          content="View antiques details, art exhibitions and online catalogues, buy and collect Chinese ancient porcelain, jewellery, wi...">
+    <meta name="keywords"
+          content="art, exhibition, online, catalogue, bid, buy, collect, antiques, antique,porcelain,chinse, china, ming dynasty, yuan dynasty, ceramics, jade, watches, old masters, jewellery, watches,  tai po antiques,">
+
+    <link href="./images/icon.ico" rel="shortcut icon" type="image/x-icon">
+
+    <!--END GLOBAL META-->
+
+    <!--jq -->
+    <script type="text/javascript" src="./js/jquery1.42.min.js"></script>
+    <!--5up-->
+    <link rel="stylesheet" href="./Tools/5up/assets/css/main.css" />
+<!--homepage style sheet-->
+    <link rel="stylesheet" href="./css/style.css" />
+<style type="text/css">
+ .noshow{
+    display:none;
+ }
+</style>
+</head>
+
+<!-- Vendor Styles -->
+
+<link href="./Tools/megakit/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+<link href="./Tools/megakit/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+
+<!-- Theme Styles -->
+<link href="./Tools/megakit/css/style.css" rel="stylesheet" type="text/css"/>
+
+<!--homepage style sheet-->
+    <link rel="stylesheet" href="./css/style.css" />
+
+<!--========== HEADER ==========-->
+<header class="navbar-fixed-top s-header js__header-sticky js__header-overlay">
+    <!-- Navbar -->
+    <div class="s-header__navbar" >
+        <div class="s-header__container">
+            <div class="s-header__navbar-row">
+                <div class="s-header__navbar-row-col">
+                    <!-- Logo -->
+                        <a href="index.html" class="s-header__logo-link">
+                            <!--<h1 style="font-family:ctb_dast5">大寶古玩</h1>-->
+                            <img id="white" class=" s-header__logo-img s-header__logo-img-default" src="./images/imgtran.png" alt="Megakit Logo">
+                        </a>
+                    <!-- End Logo -->
+                </div>
+                <div class="s-header__navbar-row-col">
+                    <!-- Trigger -->
+                    <a id="tr"  href="javascript:void(0);" class="s-header__trigger js__trigger">
+                        <span class="s-header__trigger-icon"></span>
+                        <svg x="0rem" y="0rem" width="3.125rem" height="3.125rem" viewbox="0 0 54 54">
+                            <circle fill="transparent" stroke="#fff" stroke-width="1" cx="27" cy="27" r="25"
+                                    stroke-dasharray="157 157" stroke-dashoffset="157"></circle>
+                        </svg>
+                    </a>
+                    <!-- End Trigger -->
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Navbar -->
+
+    <!-- Overlay -->
+    <div class="s-header-bg-overlay js__bg-overlay">
+        <!--hidden logo-->
+                        <a href="index.html" class="s-header__logo-link">
+                            <!--changed class to fade in and out-->
+                            <img  id="black"  class=" s-header__nav-menu-item" src="./images/imgtran.png" alt="Megakit Logo">
+                        </a>
+        <!-- Nav -->
+        <nav class="s-header__nav js__scrollbar">
+            <div class="container-fluid">
+                <!-- Menu List -->
+                <ul class="list-unstyled s-header__nav-menu">
+                    <li class="s-header__nav-menu-item"><a
+                            class="s-header__nav-menu-link s-header__nav-menu-link-divider -is-active" href="about.html">關於大寶古玩</a>
+                    </li>
+                    <li class="s-header__nav-menu-item"><a
+                            class="s-header__nav-menu-link s-header__nav-menu-link-divider " href="founder.html">伍學廣先生</a>
+                    </li>
+                    <li class="s-header__nav-menu-item"><a
+                            class="s-header__nav-menu-link s-header__nav-menu-link-divider" href="news.html">新聞發佈</a>
+                    </li>
+                    <li class="s-header__nav-menu-item"><a
+                            class="s-header__nav-menu-link s-header__nav-menu-link-divider"
+                            href="contact.html">聯絡我們</a></li>
+                </ul>
+                <!-- End Menu List -->
+                <!-- Menu List -->
+                <ul class="list-unstyled s-header__nav-menu">
+                    <li class="s-header__nav-menu-item"><a
+                            class="s-header__nav-menu-link s-header__nav-menu-link-divider"
+                            href="item.html">古玩藏品</a></li>
+                    <li class="ming2 s-header__nav-menu-item"><a
+                            class="ming2 s-header__nav-menu-link s-header__nav-menu-link-divider"
+                            href="#">元明代瓷器</a></li>
+                    <li class="s-header__nav-menu-item"><a
+                            class="s-header__nav-menu-link s-header__nav-menu-link-divider" href="qing.html">清代瓷器</a>
+                    </li>
+                    <li class="s-header__nav-menu-item"><a
+                            class="s-header__nav-menu-link s-header__nav-menu-link-divider" href="pottery.html">陶器</a>
+                    </li>
+                    <li class="s-header__nav-menu-item"><a
+                            class="s-header__nav-menu-link s-header__nav-menu-link-divider" href="figure.html">人物像</a>
+                    </li>
+                    <li class="s-header__nav-menu-item"><a
+                            class="s-header__nav-menu-link s-header__nav-menu-link-divider" href="others.html">其他藏品</a>
+                    </li>
+                </ul>
+                <!-- End Menu List -->
+                  <!-- Menu List -->
+                <ul class="ming list-unstyled s-header__nav-menu noshow">
+                    <li class="s-header__nav-menu-item"><a
+                            class="s-header__nav-menu-link s-header__nav-menu-link-divider"
+                            href="item.html">萬曆</a></li>
+                    <li class="s-header__nav-menu-item"><a
+                            class="s-header__nav-menu-link s-header__nav-menu-link-divider"
+                            href="ming.html">雍正</a></li>
+                    <li class="s-header__nav-menu-item"><a
+                            class="s-header__nav-menu-link s-header__nav-menu-link-divider" href="qing.html">康熙</a>
+                    </li>
+                    <li class="s-header__nav-menu-item"><a
+                            class="s-header__nav-menu-link s-header__nav-menu-link-divider" href="pottery.html">乾隆</a>
+                    </li>
+                    <li class="s-header__nav-menu-item"><a
+                            class="s-header__nav-menu-link s-header__nav-menu-link-divider" href="figure.html">光緒</a>
+                    </li>
+                </ul>
+                <!-- End Menu List -->
+
+            </div>
+        </nav>
+        <!-- End Nav -->
+
+        <!-- Action -->
+        <ul class="list-inline s-header__action s-header__action--lb">
+            <li class="s-header__action-item"><a class="s-header__action-link -is-active" href="#">繁</a></li>
+            <li class="s-header__action-item"><a class="s-header__action-link" href="#">简</a></li>
+            <li class="s-header__action-item"><a class="s-header__action-link" href="#">Eng</a></li>
+        </ul>
+        <!-- End Action -->
+
+        <!-- Action -->
+        <ul class="list-inline s-header__action s-header__action--rb">
+            <li class="s-header__action-item">
+                <a class="s-header__action-link" href="#">
+                    <i class="g-padding-r-5--xs ti-facebook"></i>
+                    <span class="g-display-none--xs g-display-inline-block--sm">Facebook</span>
+                </a>
+            </li>
+            <li class="s-header__action-item">
+                <a class="s-header__action-link" href="#">
+                    <i class="g-padding-r-5--xs ti-twitter"></i>
+                    <span class="g-display-none--xs g-display-inline-block--sm">Twitter</span>
+                </a>
+            </li>
+            <li class="s-header__action-item">
+                <a class="s-header__action-link" href="#">
+                    <i class="g-padding-r-5--xs ti-instagram"></i>
+                    <span class="g-display-none--xs g-display-inline-block--sm">Instagram</span>
+                </a>
+            </li>
+        </ul>
+        <!-- End Action -->
+    </div>
+    <!-- End Overlay -->
+</header>
+<!--========== END HEADER ==========-->
+
+
+<body>
+<!-- Gallery -->
+					<section class="wrapper style1 align-center">
+						<div class=" title">
+							<h1>Welcome to TaiPo Antiques Co.</h1>
+							<p> Based in Macau, our company expertises in Chinese Ceramics Art from Yuan and Ming Dynasty.<br> We also have exquisite collection of jewlery, rare watches and other old Chinese arts </p>
+						</div>
+
+                    <div class="content">
+
+						<!-- Gallery -->
+							<div class="gallery style2 medium lightbox onscroll-fade-in">
+								<article>
+									<a href="./images/gallery/1.jpg" class="image">
+										<img src="images/gallery/1.jpg" alt="" />
+									</a>
+									<div class="caption">
+										<h3>Qing yellow-green flasks</h3>
+										<p>rare and intact pair of treasure</p>
+										<ul class="actions">
+											<li><span class="button small">Details</span></li>
+										</ul>
+									</div>
+								</article>
+                                <article>
+									<a href="./images/gallery/2.jpg" class="image">
+										<img src="images/gallery/2.jpg" alt="" />
+									</a>
+									<div class="caption">
+										<h3>Qing yellow-green flasks</h3>
+										<p>rare and intact pair of treasure</p>
+										<ul class="actions">
+											<li><span class="button small">Details</span></li>
+										</ul>
+									</div>
+								</article>
+                                <article>
+									<a href="./images/gallery/3.jpg" class="image">
+										<img src="images/gallery/3.jpg" alt="" />
+									</a>
+									<div class="caption">
+										<h3>Qing yellow-green flasks</h3>
+										<p>rare and intact pair of treasure</p>
+										<ul class="actions">
+											<li><span class="button small">Details</span></li>
+										</ul>
+									</div>
+								</article>
+                                <article>
+									<a href="./images/gallery/4.jpg" class="image">
+										<img src="images/gallery/4.jpg" alt="" />
+									</a>
+									<div class="caption">
+										<h3>Qing yellow-green flasks</h3>
+										<p>rare and intact pair of treasure</p>
+										<ul class="actions">
+											<li><span class="button small">Details</span></li>
+										</ul>
+									</div>
+								</article>
+                                 <article>
+									<a href="./images/gallery/5.jpg" class="image">
+										<img src="images/gallery/5.jpg" alt="" />
+									</a>
+									<div class="caption">
+										<h3>Qing yellow-green flasks</h3>
+										<p>rare and intact pair of treasure</p>
+										<ul class="actions">
+											<li><span class="button small">Details</span></li>
+										</ul>
+									</div>
+								</article>
+                                 <article>
+									<a href="./images/gallery/6.jpg" class="image">
+										<img src="images/gallery/6.jpg" alt="" />
+									</a>
+									<div class="caption">
+										<h3>Qing yellow-green flasks</h3>
+										<p>rare and intact pair of treasure</p>
+										<ul class="actions">
+											<li><span class="button small">Details</span></li>
+										</ul>
+									</div>
+								</article>
+                                <article>
+									<a href="./images/gallery/7.jpg" class="image">
+										<img src="images/gallery/7.jpg" alt="" />
+									</a>
+									<div class="caption">
+										<h3>Qing yellow-green flasks</h3>
+										<p>rare and intact pair of treasure</p>
+										<ul class="actions">
+											<li><span class="button small">Details</span></li>
+										</ul>
+									</div>
+								</article>
+							</div>
+
+                    </div>
+					</section>
+
+</body>
+<footer>
+     <div class="container">
+            <ul class="main-links">
+                <li><a href="/zh/contactus.html">聯繫我們</a></li>
+                <li><a href="/zh/faq-help.html">常見問題</a></li>
+                <li class="copyright">&copy; 2017 Tai Po Antiques Co.</li>
+            </ul>
+        </div>
+    </div>
+</footer>
+<!-- Scripts -->
+			<script src="./Tools/5up/assets/js/jquery.scrollex.min.js"></script>
+			<script src="./Tools/5up/assets/js/jquery.scrolly.min.js"></script>
+			<script src="./Tools/5up/assets/js/skel.min.js"></script>
+			<script src="./Tools/5up/assets/js/util.js"></script>
+			<script src="./Tools/5up/assets/js/main.js"></script>
+<!-- Back To Top -->
+<a href="javascript:void(0);" class="s-back-to-top js__back-to-top"></a>
+
+<!--========== JAVASCRIPTS (Load javascripts at bottom, this will reduce page load time) ==========-->
+<!-- Vendor -->
+<script type="text/javascript" src="./Tools/megakit/vendor/jquery.min.js"></script>
+
+<script type="text/javascript" src="./Tools/megakit/vendor/bootstrap/js/bootstrap.min.js"></script>
+
+
+<!-- General Components and Settings -->
+<script type="text/javascript" src="./Tools/megakit/js/global.min.js"></script>
+
+<!-- menu breadcrumb -->
+<script type="text/javascript">
+$(function(){
+$('.ming2').click(function(){
+    $('.ming').removeClass('noshow');
+});
+})
+</script>
+<!--========== END JAVASCRIPTS ==========-->

@@ -1,0 +1,32 @@
+*{
+    /*border:1px solid red;*/
+}
+content{
+  height:80%;
+  /*width: 100%;*/
+  display:inline-block;
+  margin-top:200px;
+  margin-bottom:200px;
+    margin-right:50px;
+    margin-left:50px;
+background-image: url("/images/f2.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  /*background-color: #efefef;*/
+    text-align:center;
+}
+
+.foundertext{
+  text-align:left;
+  padding:30px;
+  padding-left:180px;
+display:block;
+}
+div.founderpic{
+  display:none;
+  height: 900px;
+  width:100%;
+  float:left;
+  overflow:hidden;
+
+}
